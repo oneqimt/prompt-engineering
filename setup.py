@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='DLAI',
+    name='DeepAI',
     version='1.0',
     packages=[''],
     package_dir={'': 'imtmobileapps'},
