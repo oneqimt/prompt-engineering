@@ -30,7 +30,7 @@ def prompt_one():
 
 # Tactic 2: Ask for a structured output JSON, HTML
 prompt2 = f"""
-Generate a list of three made-up book titles along \ 
+Generate a list of three made-up book titles along 
 with their authors and genres. 
 Provide them in JSON format with the following keys: 
 book_id, title, author, genre.
@@ -303,12 +303,12 @@ def prompt_ten():
     return response_ten
 
 
+# print(prompt_one())
 #
 #
 #
 #
-#
-print(prompt_one())
+
 print(prompt_two())
 print(prompt_three())
 print(prompt_four())
@@ -318,6 +318,3 @@ print(prompt_seven())
 print(prompt_eight())
 print(prompt_nine())
 print(prompt_ten())
-
-
-
