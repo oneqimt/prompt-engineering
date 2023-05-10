@@ -1,5 +1,6 @@
 import util
 
+
 # Principle 1: Write clear and specific instructions
 
 # Tactic 1: Use delimiters to clearly indicate distinct parts of the input
@@ -303,12 +304,12 @@ def prompt_ten():
     return response_ten
 
 
-# print(prompt_one())
 #
 #
 #
 #
-
+#
+print(prompt_one())
 print(prompt_two())
 print(prompt_three())
 print(prompt_four())

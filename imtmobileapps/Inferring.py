@@ -9,10 +9,10 @@ Got it fast.  The string to our lamp broke during the \
 transit and the company happily sent over a new one. \
 Came within a few days as well. It was easy to put \
 together.  I had a missing part, so I contacted their \
-support and they ignored me! \
-Another crucial piece was broken. \
-I wasted my money on this piece of junk! \
-Lumina seems to me to be a bogus company that does not care \
+support and they handled right away! \
+Another crucial piece was missing. \
+I found it in the packaging and all was well. \
+Lumina seems to me to be a great company that cares \
 about their customers and products!!
 """
 
@@ -94,8 +94,8 @@ def multiple_tasks():
     return response
 
 
-# doing_multiple_tasks_prompt_output = multiple_tasks()
-# print('MULTIPLE Tasks: ', doing_multiple_tasks_prompt_output)
+doing_multiple_tasks_prompt_output = multiple_tasks()
+print('MULTIPLE Tasks: ', doing_multiple_tasks_prompt_output)
 
 
 def extract_product_company():
@@ -103,8 +103,8 @@ def extract_product_company():
     return response
 
 
-# extract_product_company_name_prompt_output = extract_product_company()
-# print('EXTRACT ProductName and CompanyName: ', extract_product_company_name_prompt_output)
+extract_product_company_name_prompt_output = extract_product_company()
+print('EXTRACT ProductName and CompanyName: ', extract_product_company_name_prompt_output)
 
 
 def identify_anger():
@@ -112,8 +112,8 @@ def identify_anger():
     return response
 
 
-# identify_anger_prompt_output = identify_anger()
-# print('IDENTIFY ANGER: ', identify_anger_prompt_output)
+identify_anger_prompt_output = identify_anger()
+print('IDENTIFY ANGER: ', identify_anger_prompt_output)
 
 
 def identify_emotions():
@@ -121,9 +121,9 @@ def identify_emotions():
     return response
 
 
-# identify_types_of_emotions_prompt_output = identify_emotions()
+identify_types_of_emotions_prompt_output = identify_emotions()
 
-# print('IDENTIFY TYPES of EMOTIONS: ', identify_types_of_emotions_prompt_output)
+print('IDENTIFY TYPES of EMOTIONS: ', identify_types_of_emotions_prompt_output)
 
 
 def tell_gpt_how():

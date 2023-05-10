@@ -198,5 +198,6 @@ def show_html2():
     return IPython.display.IFrame(use_a_table_to_display, 500, 500)
 
 
-test = show_html()
+test = show_html().data
 print(test)
+
